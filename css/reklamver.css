@@ -1,0 +1,77 @@
+body {
+	font-family: tahoma;
+	background: #efefef;
+}
+.clear {
+	clear: both;
+}
+.container{
+	max-width: 1024px;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* header */
+header {
+	background: #efefef;
+	padding: 10px;
+}
+header .logo {
+	width: 1000px;
+	margin: 20px 0 10px 40px;
+	font-size: 40px;
+	background: #efefef;
+	color:#333333;
+}
+header nav {
+	background: #92000a;
+}
+header nav ul {
+	width: 400px;
+	margin: 0 0 0 100px;
+}
+header nav ul li {
+	float:left;
+    padding:10px;
+}
+header nav ul li a {
+	color: #000000;
+}
+header nav ul li a:hover {
+	color: #efefef;
+}
+/* BANNER */
+
+/* CONTENT */
+.reklam {
+	width:100%;
+	height:100%;
+	background:#555555;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.reklam p {
+	text-align:center;
+	font-size:50px;
+	color:#ff8080;
+	padding-top:30px;
+}
+.reklam p a {
+	color:#ff8080;
+}
+
+/* FOOTER */
+footer {
+	background: #838b8b;
+	color: #333333;
+	padding: 20px 20px 20px 20px;
+	font-size: 18px;
+}
+/* MEDİA QUERY */
+
+@media all and (max-width: 480px) {
+	.reklam p {
+		width: auto;
+		font-size:20px;
+	}
+}

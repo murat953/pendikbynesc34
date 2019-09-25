@@ -1,0 +1,119 @@
+body {
+	font-family: tahoma;
+	background: #efefef;
+}
+.clear {
+	clear: both;
+}
+.container{
+	max-width: 1024px;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* header */
+header {
+	background: #efefef;
+	padding: 10px;
+}
+header .logo img {
+	border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  float:left;
+}
+header .headertext {
+	width: 60%;
+	margin: 20px 0 10px 40px;
+	font-size: 50px;
+	background: #efefef;
+	color:#92000a;
+	float:left;
+}
+header .yanlogo {
+	background:#efefef;
+	width:30%;
+	float:left;
+	
+}
+header nav {
+	background:#92000a;
+}
+header nav ul {
+	width: 600px;
+	margin: 0 0 0 100px;
+}
+header nav ul li {
+	float:left;
+    padding:10px;
+}
+header nav ul li a {
+	color: #000000;
+}
+header nav ul li a:hover {
+	color: #efefef;
+}
+/* BANNER */
+
+
+/* CONTENT */
+
+.content .box {
+	background: #efefef;
+	width: 20%;
+	float:left;
+	box-sizing: border-box;
+}
+.content .box img {
+	width: 100%;
+}
+.content h3.title {
+	background: #92000a;
+	padding: 1px;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom:10px;
+}
+/* FOOTER */
+.clear {
+	clear:both;
+}
+footer {
+	background: #333333;
+	color: #333333;
+	padding: 20px 20px 20px 20px;
+	font-size: 18px;
+}
+footer nav {
+	background:#333333;
+}
+footer nav ul {
+	width: 600px;
+	margin: 0 auto;
+}
+footer nav ul li {
+	float:left;
+    padding:10px;
+}
+footer nav ul li a {
+	color:#000000;
+}
+footer nav ul li a:hover {
+	color:#efefef;
+}
+
+/* MEDİA QUERY */
+
+@media all and (max-width: 480px) {
+	.content .box {
+		width: 33.3%;
+	}
+}
+
+
+
+
+
+
+
